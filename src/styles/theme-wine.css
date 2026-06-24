@@ -1,0 +1,38 @@
+/* theme-wine.css (Internet Banking) — brand tokens only; neutrals live in base.css */
+
+.theme-wine {
+  /* Opea brand wines */
+  --wine-900: oklch(0.22 0.08 6);
+  --wine-800: oklch(0.28 0.1 8);
+  --wine-700: oklch(0.34 0.13 8);
+  --wine-600: oklch(0.4 0.15 8);
+  --wine-50: oklch(0.97 0.012 8);
+
+  --primary: var(--wine-700);
+  --primary-foreground: oklch(0.98 0.005 60);
+
+  --secondary-foreground: var(--wine-900);
+
+  --accent: oklch(0.96 0.012 8);
+  --accent-foreground: var(--wine-700);
+
+  --ring: var(--wine-700);
+
+  /* Dark branded surface (top menu bar, hero) */
+  --brand-surface: var(--wine-900);
+  --brand-surface-foreground: oklch(0.98 0.005 60);
+}
+
+.dark, .theme-wine.dark {
+  --primary: oklch(0.929 0.013 255.508);
+  --primary-foreground: oklch(0.208 0.042 265.755);
+
+  --secondary-foreground: oklch(0.984 0.003 247.858);
+
+  --accent-foreground: oklch(0.984 0.003 247.858);
+
+  --ring: oklch(0.551 0.027 264.364);
+
+  --brand-surface: oklch(0.208 0.042 265.755);
+  --brand-surface-foreground: oklch(0.984 0.003 247.858);
+}

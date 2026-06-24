@@ -1,0 +1,15 @@
+/*
+ * Entry stylesheet.
+ *
+ * Token architecture (see DESIGN-SYSTEM.md):
+ *   - base.css        → neutral tokens + utility mappings (@theme inline), fonts, base layer.
+ *   - theme-wine.css  → brand tokens for the Internet Banking theme (.theme-wine).
+ *   - theme-blue.css  → brand tokens for the Backoffice theme (.theme-blue).
+ *
+ * A theme class (.theme-wine / .theme-blue) MUST be present on <html> for brand
+ * tokens (--primary, --accent, --ring, --brand-surface…) to resolve. The default
+ * is set in index.html. Add a new theme by adding one file here — no component change.
+ */
+@import "./styles/base.css";
+@import "./styles/theme-wine.css";
+@import "./styles/theme-blue.css";

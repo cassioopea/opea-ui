@@ -1,0 +1,39 @@
+/* theme-blue.css (Backoffice SCD) — brand tokens only; neutrals live in base.css */
+
+.theme-blue {
+  /* Blue — system theme */
+  --blue-900: oklch(0.31 0.13 268); /* #122D81 */
+  --blue-700: oklch(0.40 0.18 267);
+  --blue-600: oklch(0.52 0.24 266); /* #2351FF */
+  --blue-500: oklch(0.62 0.22 266);
+  --blue-100: oklch(0.92 0.04 266);
+  --blue-50: oklch(0.97 0.02 266);
+
+  --primary: var(--blue-900);
+  --primary-foreground: oklch(0.985 0.004 260);
+
+  --secondary-foreground: var(--blue-900);
+
+  --accent: oklch(0.96 0.02 266);
+  --accent-foreground: var(--blue-900);
+
+  --ring: var(--blue-600);
+
+  /* Dark branded surface (top menu bar, hero) */
+  --brand-surface: var(--blue-900);
+  --brand-surface-foreground: oklch(0.98 0.005 60);
+}
+
+.dark, .theme-blue.dark {
+  --primary: var(--blue-600);
+  --primary-foreground: oklch(0.98 0.004 260);
+
+  --secondary-foreground: oklch(0.98 0.004 260);
+
+  --accent-foreground: oklch(0.98 0.004 260);
+
+  --ring: var(--blue-500);
+
+  --brand-surface: oklch(0.208 0.042 265.755);
+  --brand-surface-foreground: oklch(0.984 0.003 247.858);
+}
