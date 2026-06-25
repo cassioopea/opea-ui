@@ -15,7 +15,7 @@ import { Label } from '@/ui/label';
 import { Plus, Download, MoreHorizontal, UserCheck, Shield } from 'lucide-react';
 
 const meta = {
-  title: 'Pages/BackofficeScreens',
+  title: 'Pages/Backoffice',
   parameters: { layout: 'fullscreen' },
   tags: ['autodocs'],
 } satisfies Meta;

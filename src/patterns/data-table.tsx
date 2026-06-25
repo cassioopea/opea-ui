@@ -197,9 +197,9 @@ export function DataTable<T>({
                     )}
                   >
                     {selectable && (
-                      <TableCell 
+                      <TableCell
                         className={cn(
-                          "px-4 align-top",
+                          "px-4 align-middle",
                           stickyFirstColumn && "sticky left-0 z-10 bg-card border-r border-border/60"
                         )}
                       >

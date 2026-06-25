@@ -212,7 +212,7 @@ function DashboardContent() {
 }
 
 const meta: Meta = {
-  title: 'Design System/Internet Banking Layout',
+  title: 'Pages/Internet Banking',
   parameters: {
     layout: 'fullscreen',
   },
