@@ -1,6 +1,6 @@
 # DS-REFATORACAO-LOG — execução da Fase 2
 
-> Diário de execução do [DS-PLANO-REFATORACAO.md](DS-PLANO-REFATORACAO.md). Este diretório **não é um repositório git** (`git: false`), portanto não há commits — cada bloco é registrado aqui. Gates por bloco: `npx tsc -b` (type-check), `npx oxlint src` (lint), `npx vite build` (build).
+> Diário de execução do [DS-PLANO-REFATORACAO.md](DS-PLANO-REFATORACAO.md). A execução começou sem repositório git (os blocos foram registrados aqui em vez de commits); o repositório foi inicializado ao final e publicado em `github.com/cassioopea/opea-ui`. Gates por bloco: `npx tsc -b` (type-check), `npx oxlint src` (lint), `npx vite build` (build).
 
 ---
 
